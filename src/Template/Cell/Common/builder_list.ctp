@@ -1,0 +1,1 @@
+<script><?  $conc="";?><? if(iterator_count($bilderslist)) {  foreach($bilderslist as $key=>$value) { $conc.='"'.$value->id.'":"'.$value->name.'",' ;}}?>var builders={<?=$conc?>};</script> 

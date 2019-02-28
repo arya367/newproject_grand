@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="true" ignorewhitespace="true" useregexp="false" wholeword="false" />
+  <find searchmode="selectedFiles">
+    <qtext qname="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="<table class=&quot;table table-bordered&quot;" param2=""/>
+</dwquery>

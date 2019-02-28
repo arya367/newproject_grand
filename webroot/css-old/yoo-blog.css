@@ -1,0 +1,74 @@
+.bg-dark{background-color:transparent !important;}
+.navbar{padding:1px 1rem 0;}
+.theme_bg{background-color:#000 !important;}
+.theme_color{color:#ff6600 !important;}
+.theme_color a{color:#ff6600}
+.blg_bg{background-color:#212529; position:relative; height:310px;}
+.blg_list_bg{background-color:#212529; position:relative; padding:7rem 0 4rem; text-align:center; color:#f1f1f1;}
+.blg_main{border:1px solid rgba(0,0,0,.125); border-radius:.25rem; margin-bottom:1.9rem;}
+.blg_main a{color:#212529;}
+.blg_main h2{text-overflow:ellipsis; white-space:nowrap; overflow:hidden; font-size:1.3rem; margin-bottom:0;}
+.blg_inner_list{padding:1rem;}
+.blg_list_thumb{padding-left:0;}
+.blg_list_thumb img{border-radius:0 .25rem .25rem 0}
+.blg_content{position:relative;}
+.blog_banner{margin:0;}
+.breadcrumb{background-color:transparent; padding:.4rem 0; font-size:.8rem; margin-bottom:0; border-bottom:1px dotted #ccc;}
+.breadcrumb-item a{color:#bbb;}
+.heading_bdr{background-color:#ff6600;height:1px; width:150px; display:block;}
+.blg_left{}
+.author_date{font-size:.9rem; color:#999; margin-bottom:1.5rem; padding-top:.4rem}
+.blg_left ul{list-style:none; margin:0; padding:0; font-size:.9rem;}
+.blg_left ul li{line-height:100%; border-bottom:1px dotted #ccc;}
+.blg_left ul li:last-child{border:none;}
+.blg_left ul li a{color:#212529; padding:.5rem 0; display:block;}
+.blg_mdl{}
+blockquote{border-left:2px solid #ccc; font-size:1.2rem; padding-left:1rem; color:#ff6600;}
+.blg_last{position:relative;}
+.blog_abt{margin-bottom:1.5rem; font-size:.9rem; border-left:1px solid #ccc; padding-left:1rem;}
+.blg_mdl h1{line-height:100%;}
+.blog_body{border-bottom:2px solid #ccc; padding-bottom:2rem;}
+.blg_pager{margin-top:2rem; margin-bottom:2rem; padding-top:1rem;}
+.blg_pager a{display:block; text-orientation:none; color:#212529;}
+.pager_name{white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.pr_form{padding:1rem; border-left:1px solid #ccc;}
+.form-control{border:none; border-radius:0; border-bottom:1px solid #333; padding-left:.25rem; font-size:.9rem;}
+.form-control:focus{border:none; border-bottom:1px solid #80bdff}
+.blg_last .btn{border-radius:1rem; min-width:150px;}
+footer{background-color:#292929;}
+.ftr_common,.prj_link,.follow_us{position:relative; color:#e9e9e9; font-size:.9rem;}
+.ftr_common figure{margin-bottom:0;}
+.copyright{color:#636363; margin-bottom:.5rem;}
+.ftr_heading{font-size:1.2rem; margin-bottom:.5rem;}
+.ftr_heading:before{background-color:#aeaeae; content:'';height:1px; width:150px; position:absolute; margin-top:29px;}
+.ftr_common ul,.prj_link ul,.follow_us ol{list-style:none; margin:0; padding:0;}
+.ftr_common ul li{list-style:none; margin:0; padding:0;display:inline-block; border-right:1px dotted #eee; }
+.ftr_common ul li:last-child{border:none;}
+.ftr_common ul li a{display:block; padding:0 .5rem; color:#aaa;}
+.prj_link ul li{margin:0; padding:0;}
+.prj_link ul li a{padding:0; color:#aaa; padding:.25 0; display:block;}
+.follow_us ol{margin-top:1.5rem;}
+.follow_us ol li{float:left; padding:0; margin-right:10px; margin-bottom:30px;}
+.follow_us ol li a{padding:.5rem;text-decoration:none;transition:all .2s ease-in; color:#fff;}
+.follow_us ol li a:hover{color:#fff}
+.contac_us ol li{margin-bottom:7px}
+.common_footer ol li{display:block;padding:0 3px}
+.fa-facebook{border:1px solid #3b5998}
+.fa-twitter{border:1px solid #55acee}
+.fa-google-plus{border:1px solid #dd4b39}
+.fa-pinterest-p{border:1px solid #cb2027}
+.fa-linkedin{border:1px solid #007bb5}
+.fa-youtube-play{border:1px solid #b00}
+.fa-vimeo{border:1px solid #4BF}
+.fa-flickr{border:1px solid #ff0084}
+.fa-facebook:hover{background-color:#3b5998}
+.fa-twitter:hover{background-color:#55acee}
+.fa-google-plus:hover{background-color:#dd4b39}
+.fa-pinterest-p:hover{background-color:#cb2027}
+.fa-linkedin:hover{background-color:#007bb5}
+.fa-youtube-play:hover{background-color:#b00}
+.fa-vimeo:hover{background-color:#4BF}
+.fa-flickr:hover{background-color:#ff0084}
+.rera_bg{background-color:#fff; font-size:.8rem; color:#777; padding-top:1rem;}
+@media (min-width:768px){.blg_content{margin-top:-190px;}.nav-link{padding-top:1rem; padding-bottom:1rem;}}
+@media (min-width:1367px){}

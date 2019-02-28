@@ -1,0 +1,107 @@
+body{background-color:#dedede;}
+.bg-dark{background-color:rgba(0,0,0,.4) !important}
+.theme_bg{background-color:#000 !important;}
+.pr_ban{position:relative; height:550px; background-repeat:no-repeat; background-position:center center;}
+.pr_ban::before{position:absolute; content:''; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 99%);}
+.pr_main{position:relative; margin-top:-130px;}
+.pr_main h1{color:#fff; margin-bottom:1rem;}
+.white_bg{background-color:#fff; margin-bottom:3rem;}
+.breadcrumb-item a{color:#bbb;}
+.update_date{text-align:right;}
+.pr_form{background-color:#fff; border:2px solid #343a40;overflow:hidden; margin-top:-60px;}
+.form_inner{padding:1.5rem 2rem;}
+.form_heading{background-color:#000; text-align:center; position:relative; font-size:1.4rem; color:#fff; padding-top:1rem; margin-bottom:30px;}
+.heading_name{position:relative; z-index:10;}
+.form_heading span{background-color:#000; display:block; border-radius:250px / 50px; position:absolute; height:70px; width:100%; top:10px;}
+.prject_heading:before{background-color:#ff6600; content:'';height:1px; width:150px; position:absolute; margin-top:40px;}
+.pr_config{padding:1.5rem;}
+.icon_config{color:#666; text-align:center; padding:10px 0;}
+.icon_config span{display:block; text-transform:uppercase; font-size:11px;}
+.icon_config label{text-transform:none; text-overflow:ellipsis; white-space:nowrap; display:block; overflow:hidden; color:#201f1f; font-weight:600; line-height:100%;}
+.h_icon{background-image:url(../images/home-sprite.png); width:100%; height:42px; display:block; background-repeat:no-repeat;}
+.rating{height:42px; background:url(../images/star-4-5.png) center 9px no-repeat; width:100%;}
+.h_proptype{background-position:center -155px;}
+.h_location{background-position:center -237px;}
+.h_sizes{background-position:center -402px;}
+.h_unit{background-position:center -320px;}
+.price{background-position:center -485px;}
+.h_completion{background-position:center -568px;}
+.h_tower{background-position:center -574px;}
+.h_rera{background-position:center -649px;}
+.h_offers{background-position:center -792px;}
+.modal-content{border-radius:0;}
+.offer_bg{background-color:#ffc299; border:none;}
+.modal-header{border-bottom:none;}
+.offer-body{background-color:#fff; padding:1.5rem;}
+.offer_header{position:relative; height:100px;}
+.offers_rbn{background-image:url(../images/offer-ribon.png); background-position:center top; background-repeat:no-repeat; width:100%; height:130px; position: absolute; z-index:10; margin-top:13px}
+.offer_con{margin:0 1.5rem; top:-1rem; position:relative; font-size:.9rem;background-color:#ccc; border-radius:.5rem 0 0 .5rem; display:inline-block;}
+.offer_con span{display:block; float:left; background-color:#ff006a; color:#fff; padding:.2rem .5rem; margin-right:-.25rem;border-radius:.5rem 0 0 .5rem; }
+.offer_con i{ padding:.2rem .5rem; font-style:normal; width:210px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:block; float:left;}
+.offer_con a{display:inline-block;padding:.2rem .5rem;}
+.special_text{text-align:center; font-size:2rem;}
+.offer_border{border:2px dashed #f5a623; padding:.5rem; font-size:1.1rem; color:#61a913; text-align:center; margin:.5rem 0;}
+.overview{background-color:#fff; margin:4rem 0;}
+.ameni_con{padding-bottom:4rem;}
+.ameni_heading{text-align:center; line-height:100%; margin-bottom:1.5rem;}
+.ameni_heading h3{margin-bottom:.1rem;}
+.ameni_inner{background-color:#fff; position:relative; margin-bottom:1.5rem; text-align:center; transition:all .2s ease-in-out}
+.ameni_inner:hover{box-shadow:0 0px 10px 3px #6b6b6b}
+.ameni_inner span{display:block; padding:.5rem; font-size:.8rem;}
+.amen_icon{background-image:url(../images/amenities-sprite.jpg); background-repeat:no-repeat; height:130px; display:block;}
+.ameni_power{background-position:center 0px}
+.ameni_water_storage{background-position:center -132px}
+.ameni_security{background-position:center -264px}
+.ameni_wifi{background-position:center -396px}
+.ameni_parking{background-position:center -528px}
+.ameni_lifts{background-position:center -660px}
+.ameni_party_lawn{background-position:center -792px}
+.ameni_parks{background-position:center -925px}
+.ameni_jogging{background-position:center -1058px}
+.ameni_badminton{background-position:center -1192px}
+.ameni_tenis{background-position:center -1324px}
+.ameni_cricket{background-position:center -1457px}
+.ameni_volleyball{background-position:center -1590px}
+.ameni_kidsplay{background-position:center -1723px}
+.ameni_library{background-position:center -1856px}
+.ameni_community_hall{background-position:center -1989px}
+.ameni_homeautomation{background-position:center -2121px}
+.ameni_fire_fighting{background-position:center -2253px}
+.ameni_cctv{background-position:center -2385px}
+.ameni_earthquake{background-position:center -2517px}
+.ameni_vaastu{background-position:center -2651px}
+.ameni_rain_water{background-position:center -2806px}
+.ameni_gymnasium{background-position:center -2939px}
+.ameni_spa{background-position:center -3072px}
+.ameni_swimming_pool{background-position:center -3204px}
+.ameni_lounge{background-position:center -3338px}
+.ameni_card{background-position:center -3471px}
+.ameni_yoga{background-position:center -3604px}
+.ameni_aerobics{background-position:center -3737px}
+.ameni_gated_community{background-position:center -3870px}
+.ameni_onsite_maintence{background-position:center -4002px}
+.ameni_gas_pipe{background-position:center -4135px}
+.ameni_visitor_park{background-position:center -4269px}
+.ameni_geyser{background-position:center -4404px}
+.ameni_concierge{background-position:center -4537px}
+.ameni_underground_cable{background-position:center -4669px}
+.ameni_clube_house{background-position:center -4803px}
+.ameni_foodcourt{background-position:center -4935px}
+.ameni_air_con{background-position:center -5067px}
+.prj_location{background-color:#fff; padding:5rem 0;}
+.prj_location figure{border:1px solid #ccc;}
+.location_list{padding:0; margin:1.5rem 0 0 1rem;}
+.location_list li{border-top:1px dotted #ccc; padding:.7rem 0 .7rem 1rem;}
+.location_more{text-align:right;margin-top:1rem;}
+.specifications,.price_list,.floor_con{padding-left:1.5rem;}
+#gotoQ{display:none;}
+.thumb_list{margin-bottom:2rem;}
+.thumb_list a{display:block; background-color:#f1ecec; text-align:center; color:#212529; text-decoration:none; border:#ddd solid 1px; transition:all .2s ease-in-out}
+.thumb_list a:hover{box-shadow:0 0px 10px 3px #6b6b6b}
+.thumb_list figcaption{background-color:#ddd; padding:.9rem; text-align:left;}
+.area_det{font-size:.9rem; border-top:1px dotted #b7b7b7; padding:.2rem 0;}
+.area_det span{width:120px; display:inline-block;}
+.floor_heading{background-color:#4a4f62; color:#fff; padding:.5rem; margin-bottom:.1rem}
+.floor_sub_heading{background-color:#ddd; padding:.5rem; margin-bottom:1rem;}
+@media (min-width:768px){.thumb_list img{height:260px;}}
+@media (min-width:1440px){.pr_ban{background-size:cover;}}

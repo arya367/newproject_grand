@@ -1,0 +1,11 @@
+<li <? if($this->request->params['action']=='edit') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Edit', array('controller' => 'properties', 'action' => 'edit',$this->request->params['pass'][0])); ?></li>
+<li <? if($this->request->params['action']=='logo') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Logo', array('controller' => 'properties', 'action' => 'logo',$this->request->params['pass'][0])); ?></li>
+<li <? if($this->request->params['action']=='overview') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Overview', array('controller' => 'properties', 'action' => 'overview',$this->request->params['pass'][0])); ?></li>
+<li <? if($this->request->params['action']=='plan') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Plan', array('controller' => 'properties', 'action' => 'plan',$this->request->params['pass'][0])); ?></li>
+<?php /*?><li <? if($this->request->params['action']=='pdf') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('PDF', array('controller' => 'properties', 'action' => 'pdf',$this->request->params['pass'][0])); ?></li><?php */?>
+<li <? if($this->request->params['action']=='seo') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('SEO', array('controller' => 'properties', 'action' => 'seo',$this->request->params['pass'][0])); ?></li>
+<li <? if($this->request->params['action']=='banner') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Banner', array('controller' => 'properties', 'action' => 'banner',$this->request->params['pass'][0])); ?></li>
+<li <? if($this->request->params['action']=='price') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Price', array('controller' => 'properties', 'action' => 'price',$this->request->params['pass'][0])); ?>
+<li <? if($this->request->params['action']=='amenities') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Amenities', array('controller' => 'properties', 'action' => 'amenities',$this->request->params['pass'][0])); ?>
+<li <? if($this->request->params['action']=='connectivity') { ?>class="submenuselect2" <? } ?> ><?php echo $this->Html->link('Connectivity', array('controller' => 'properties', 'action' => 'connectivity',$this->request->params['pass'][0])); ?>
+

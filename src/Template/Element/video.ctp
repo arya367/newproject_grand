@@ -1,0 +1,2 @@
+<h2 itemprop="name"><? print_r($projects[0]['prop']['gallery_heading']);?></h2>
+<div class="project_specific"><iframe frameborder="0" name="cbox1360839005618" src="<? print_r($projects[0]['prop']['youtube_url']);?>" style="text-align:center;display: block;" width="100%" height="500"></iframe></div>
